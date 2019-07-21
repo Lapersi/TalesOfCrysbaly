@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b4b13c11b4181da47912b18c87b5c5c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ParticulasAtinar: {fileID: 659341183472350726, guid: 79772c6a5ef26c4409e485379d6de776,
+      type: 3}
+  - ParticulasNoAtinar: {fileID: 8920501421531329592, guid: 594e1520bd0020743b381f2f4ce636af,
+      type: 3}
+  - Control: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
