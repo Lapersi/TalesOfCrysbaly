@@ -83,7 +83,7 @@ public class ControlSkillCheck_SC : MonoBehaviour
         //Comprobar que almenos un carril este activo
         for(int x = 0; x<PuntosSpawn.Length; x++)
         {
-            if (PuntosSpawn[x].transform.parent.gameObject.active)
+            if (PuntosSpawn[x].transform.parent.gameObject.activeSelf)
             {
                 _activos++;
             }
@@ -99,7 +99,7 @@ public class ControlSkillCheck_SC : MonoBehaviour
         {
             _Carril = Random.Range(0, PuntosSpawn.Length);
 
-            if (!PuntosSpawn[_Carril].parent.gameObject.active)
+            if (!PuntosSpawn[_Carril].parent.gameObject.activeSelf)
             {
                 a = 0;
             }
