@@ -47,7 +47,8 @@ MonoBehaviour:
   nameColor: {r: 0.4666667, g: 0.48235297, b: 0.15294118, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 2963cd8d5d8d77f428d32dbc859b1c1c, type: 3}
+  - {fileID: 21300000, guid: c47c472274b4d5d4dbd07bce1936711c, type: 3}
+  - {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: El padre de Leyna, fuerte, confiado, seguro,  con una gran devocion

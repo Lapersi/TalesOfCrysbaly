@@ -47,7 +47,8 @@ MonoBehaviour:
   nameColor: {r: 0.8980392, g: 0.7706739, b: 0.047058802, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 883a5e689b429a04981451d3208cab29, type: 3}
+  - {fileID: 21300000, guid: e129a25fa045b6240a3e05e94d3a5837, type: 3}
+  - {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: "Protagonista de la aventura su sue\xF1o es convertirse en una gran
