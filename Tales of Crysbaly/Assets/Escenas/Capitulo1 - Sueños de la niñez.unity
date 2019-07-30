@@ -197,7 +197,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &154796248
 GameObject:
@@ -241,7 +241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &357668527 stripped
 MonoBehaviour:
@@ -686,7 +686,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201765794
 GameObject:
@@ -800,7 +800,7 @@ Transform:
   - {fileID: 1053886970}
   - {fileID: 1938767878}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1468888761
 GameObject:
@@ -832,7 +832,7 @@ Transform:
   - {fileID: 1201765796}
   - {fileID: 1028226187}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1928399997 stripped
 MonoBehaviour:
@@ -1114,11 +1114,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -364.3214, y: 163.58672}
+  scrollPos: {x: -14.804076, y: 256.04855}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
-  zoom: 0.72478265
+  zoom: 0.42478278
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2072080796}
+  - {fileID: 2072080720}
   selectedCommands: []
   variables:
   - {fileID: 2072080687}
@@ -1197,7 +1197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 181.07378
+    width: 191.24866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1220,7 +1220,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2072080681
 MonoBehaviour:
@@ -1323,9 +1323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1281.315
-    y: -14.742697
-    width: 153.47931
+    x: 1275.7963
+    y: -130.63953
+    width: 161.1156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1613,9 +1613,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1072.29
-    y: 69.653175
-    width: 135.54288
+    x: 1033.6571
+    y: 64.134285
+    width: 142.28246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1673,9 +1673,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1285.3447
-    y: 82.549385
-    width: 136.9226
+    x: 1272.9272
+    y: -30.587978
+    width: 142.28246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2282,9 +2282,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1572.7279
-    y: 26.728325
-    width: 121.74564
+    x: 1276.089
+    y: 66.74092
+    width: 127.215935
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2831,9 +2831,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1301.8243
-    y: 318.18356
-    width: 141.06178
+    x: 1279.7483
+    y: 358.19565
+    width: 149.81572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2879,9 +2879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1300.0823
-    y: 246.75514
-    width: 179.69406
+    x: 1275.2476
+    y: 249.51445
+    width: 191.24866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2945,9 +2945,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1288.9385
-    y: 165.30736
-    width: 222.4655
+    x: 1276.5208
+    y: 169.44661
+    width: 240.21486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4171,7 +4171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: "\xBFAs\xED que soy pero que un drag\xF3n?"
+  storyText: "\xBFAs\xED que soy peor que un drag\xF3n?"
   description: 
   character: {fileID: 1928399997}
   portrait: {fileID: 21300000, guid: 25eb810c71b5e7e4dbaefe817de0c2c2, type: 3}
@@ -4547,7 +4547,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.08377
     y: 68.98684
-    width: 182.4535
+    width: 195.01529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4643,7 +4643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 570.9609
     y: 68.41993
-    width: 197.63046
+    width: 208.1985
     height: 40
   tint: {r: 0.7843138, g: 0.882353, b: 1, a: 1}
   useCustomTint: 1
@@ -4698,7 +4698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 849.28156
     y: 66.46893
-    width: 128.64426
+    width: 132.86588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6399,7 +6399,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080861
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6426,7 +6426,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080862
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6453,7 +6453,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080863
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6480,7 +6480,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080864
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6507,7 +6507,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080865
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6535,7 +6535,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080866
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6563,7 +6563,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080867
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6590,7 +6590,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080868
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6617,7 +6617,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080869
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6692,7 +6692,7 @@ PrefabInstance:
     - target: {fileID: 1162992287314341932, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1162992287314341932, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
         type: 3}
@@ -6761,7 +6761,7 @@ PrefabInstance:
     - target: {fileID: 5728268485345336914, guid: 23fc0fb503a30974fa4cb86b1e9880e0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5728268485345336914, guid: 23fc0fb503a30974fa4cb86b1e9880e0,
         type: 3}
@@ -6830,7 +6830,7 @@ PrefabInstance:
     - target: {fileID: 6379711773097837426, guid: b2a8f97e208a3de40a23909a65018b55,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6379711773097837426, guid: b2a8f97e208a3de40a23909a65018b55,
         type: 3}
