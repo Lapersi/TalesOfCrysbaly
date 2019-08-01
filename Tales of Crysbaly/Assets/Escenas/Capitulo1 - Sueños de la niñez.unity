@@ -1612,9 +1612,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2072080794}
+  - {fileID: 2072080679}
   selectedCommands:
-  - {fileID: 2072080875}
+  - {fileID: 2072080688}
   variables:
   - {fileID: 2072080687}
   description: 
@@ -1903,7 +1903,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 419131215}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &2072080689
 MonoBehaviour:
