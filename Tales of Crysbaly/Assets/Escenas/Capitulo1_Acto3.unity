@@ -764,6 +764,7 @@ GameObject:
   - component: {fileID: 1176893324}
   - component: {fileID: 1176893323}
   - component: {fileID: 1176893330}
+  - component: {fileID: 1176893332}
   m_Layer: 0
   m_Name: Capitulo1-acto2
   m_TagString: Untagged
@@ -864,8 +865,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1176893372}
+  selectedCommands:
+  - {fileID: 1176893393}
   variables: []
   description: 
   stepPause: 0
@@ -1456,6 +1459,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1176893332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176893305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  indentLevel: 0
+  storyText: "Ademas no quisiera que fueras y molestaras a tus compa\xF1eros"
+  description: 
+  character: {fileID: 645405286}
+  portrait: {fileID: 21300000, guid: 25eb810c71b5e7e4dbaefe817de0c2c2, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1176893334
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1904,7 +1934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.91487
     y: 72.191505
-    width: 148.72339
+    width: 153.19148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1924,6 +1954,7 @@ MonoBehaviour:
   - {fileID: 1176893383}
   - {fileID: 1176893380}
   - {fileID: 1176893393}
+  - {fileID: 1176893332}
   - {fileID: 1176893392}
   - {fileID: 1176893389}
   - {fileID: 1176893327}
@@ -2135,8 +2166,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xBFQue!!!!?"
   description: 
-  character: {fileID: 645405286}
-  portrait: {fileID: 21300000, guid: 25eb810c71b5e7e4dbaefe817de0c2c2, type: 3}
+  character: {fileID: 570574094}
+  portrait: {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2243,8 +2274,7 @@ MonoBehaviour:
   itemId: 80
   indentLevel: 0
   storyText: "Tendr\xE1s que desviarte y comprar algo de tinta, recuerda que cada
-    quien debe hacerse responsable de sus cosas, ademas no quisiera que fueras y molestaras
-    a tus compa\U000E7CEF\xF1eros.\n"
+    quien debe hacerse responsable de sus cosas\n"
   description: 
   character: {fileID: 645405286}
   portrait: {fileID: 21300000, guid: 25eb810c71b5e7e4dbaefe817de0c2c2, type: 3}

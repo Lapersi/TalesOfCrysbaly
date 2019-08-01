@@ -1008,7 +1008,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c47c472274b4d5d4dbd07bce1936711c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -1198,7 +1198,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d826375873c32f14392f88547815b31b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 1
@@ -1529,7 +1529,6 @@ GameObject:
   - component: {fileID: 2072080857}
   - component: {fileID: 2072080856}
   - component: {fileID: 2072080855}
-  - component: {fileID: 2072080854}
   - component: {fileID: 2072080853}
   - component: {fileID: 2072080852}
   - component: {fileID: 2072080851}
@@ -1546,7 +1545,6 @@ GameObject:
   - component: {fileID: 2072080864}
   - component: {fileID: 2072080863}
   - component: {fileID: 2072080862}
-  - component: {fileID: 2072080861}
   - component: {fileID: 2072080682}
   - component: {fileID: 2072080870}
   - component: {fileID: 2072080871}
@@ -1580,6 +1578,13 @@ GameObject:
   - component: {fileID: 2072080899}
   - component: {fileID: 2072080898}
   - component: {fileID: 2072080900}
+  - component: {fileID: 2072080902}
+  - component: {fileID: 2072080901}
+  - component: {fileID: 2072080906}
+  - component: {fileID: 2072080905}
+  - component: {fileID: 2072080904}
+  - component: {fileID: 2072080903}
+  - component: {fileID: 2072080854}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1600,11 +1605,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 316.05115, y: 108.1321}
+  scrollPos: {x: -291.09952, y: 7.8893642}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 408
-  zoom: 0.45999998
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1612,9 +1617,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2072080679}
+  - {fileID: 2072080720}
   selectedCommands:
-  - {fileID: 2072080688}
+  - {fileID: 2072080739}
   variables:
   - {fileID: 2072080687}
   description: 
@@ -1684,7 +1689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 180.43478
+    width: 186.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1821,7 +1826,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.7963
     y: -130.63953
-    width: 152.6087
+    width: 157.27274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1838,8 +1843,10 @@ MonoBehaviour:
   - {fileID: 2072080709}
   - {fileID: 2072080708}
   - {fileID: 2072080707}
+  - {fileID: 2072080902}
   - {fileID: 2072080706}
   - {fileID: 2072080705}
+  - {fileID: 2072080901}
   - {fileID: 2072080704}
   - {fileID: 2072080703}
   - {fileID: 2072080702}
@@ -2111,7 +2118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1033.6571
     y: 64.134285
-    width: 135.21739
+    width: 139.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2172,7 +2179,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.9272
     y: -30.587978
-    width: 135.21739
+    width: 139.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2185,10 +2192,14 @@ MonoBehaviour:
   - {fileID: 2072080755}
   - {fileID: 2072080754}
   - {fileID: 2072080753}
+  - {fileID: 2072080906}
   - {fileID: 2072080752}
+  - {fileID: 2072080905}
   - {fileID: 2072080751}
   - {fileID: 2072080750}
+  - {fileID: 2072080904}
   - {fileID: 2072080749}
+  - {fileID: 2072080903}
   - {fileID: 2072080748}
   - {fileID: 2072080747}
   - {fileID: 2072080746}
@@ -2275,7 +2286,7 @@ MonoBehaviour:
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 1
+  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -2357,7 +2368,7 @@ MonoBehaviour:
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 1
+  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -2434,15 +2445,14 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   storyText: "Fue gracias a su cercan\xEDa, necesidades y costumbres similares que
-    con el tiempo se fueron uniendo eso ha derivado en que muchos gobernantes tengan
-    linajes diferentes antes de establecerse el que hoy nos gobierna."
+    con el tiempo se fueron uniendo..."
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 1
+  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -2470,7 +2480,7 @@ MonoBehaviour:
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
-  extendPrevious: 1
+  extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
@@ -2653,7 +2663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 1
-  text: "\xBFFamilias Nombre?"
+  text: "\xBFFamilias Nombles?"
   description: 
   targetBlock: {fileID: 2072080698}
   hideIfVisited: 1
@@ -2781,7 +2791,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1647.5162
     y: 58.577652
-    width: 121.30435
+    width: 124.54546
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2799,7 +2809,6 @@ MonoBehaviour:
   - {fileID: 2072080864}
   - {fileID: 2072080863}
   - {fileID: 2072080862}
-  - {fileID: 2072080861}
   - {fileID: 2072080739}
   - {fileID: 2072080900}
   - {fileID: 2072080895}
@@ -3257,7 +3266,7 @@ MonoBehaviour:
   storyText: "Papa, \xBFPor que sigue la guerra contra la gente HammerHorde?"
   description: 
   character: {fileID: 357668527}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3333,7 +3342,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1279.7483
     y: 358.19565
-    width: 142.17392
+    width: 146.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3354,7 +3363,6 @@ MonoBehaviour:
   - {fileID: 2072080857}
   - {fileID: 2072080856}
   - {fileID: 2072080855}
-  - {fileID: 2072080854}
   - {fileID: 2072080853}
   - {fileID: 2072080852}
   - {fileID: 2072080851}
@@ -3381,7 +3389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.2476
     y: 249.51445
-    width: 180.43478
+    width: 186.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3393,6 +3401,7 @@ MonoBehaviour:
   - {fileID: 2072080727}
   - {fileID: 2072080837}
   - {fileID: 2072080836}
+  - {fileID: 2072080854}
   - {fileID: 2072080835}
   - {fileID: 2072080834}
   - {fileID: 2072080833}
@@ -3447,7 +3456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1276.5208
     y: 169.44661
-    width: 225.65218
+    width: 233.63638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3785,8 +3794,7 @@ MonoBehaviour:
   itemId: 73
   indentLevel: 0
   storyText: Esas provincias se componen de un castillo en el cual viven los desentiendes
-    directos de la familia, dentro de las murallas del castillo viven desentiendes
-    secundarios y comerciantes.
+    directos de la familia
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -3814,8 +3822,7 @@ MonoBehaviour:
   itemId: 72
   indentLevel: 0
   storyText: Pues ellos tienen ciertas provincias, dentro del reino de estas provincias
-    las familias nobles tienen sus propias leyes y normas, solo cumplen con algunas
-    leyes fundamentales del reino.
+    las familias nobles tienen sus propias leyes y normas
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -3869,9 +3876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: Pues poseen muchas reliquias pero no de ese tipo, veras hija las familias
-    nobles son aliados que han ayudado al reino en momentos muy oscuros de su historia
-    y es por eso que se han ganado ciertos privilegios.
+  storyText: Veras hija las familias nobles son aliados que han ayudado al reino en
+    momentos muy oscuros de su historia
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -5003,7 +5009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.08377
     y: 71.16075
-    width: 183.91304
+    width: 190.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5125,7 +5131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 570.9609
     y: 68.41993
-    width: 196.08696
+    width: 202.72728
     height: 40
   tint: {r: 0.7843138, g: 0.882353, b: 1, a: 1}
   useCustomTint: 1
@@ -5180,7 +5186,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 849.28156
     y: 66.46893
-    width: 126.52174
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6204,9 +6210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: "Con la diferencias que estos eran absolutamente negras... como si fueran
-    sombras y ten\xEDan los ojos de un \xFAnico color, dependiendo del tipo de drag\xF3n
-    espectral"
+  storyText: Con la diferencias que estos eran absolutamente negras
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -6691,7 +6695,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080854
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6701,9 +6705,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 193
+  itemId: 257
   indentLevel: 0
-  storyText: "Adem\xE1s, como osas llamar mentiroso a tu padre..."
+  storyText: "Como si fueran sombras y ten\xEDan los ojos de un \xFAnico color, dependiendo
+    del tipo de drag\xF3n espectral"
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -6730,7 +6735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: "Adem\xE1s, como osas llamar mentiroso a tu padre..."
+  storyText: "ya que ellos se entrenan arduamente en perfeccionar sus habilidades
+    con la magia\nAdem\xE1s, como osas llamar mentiroso a tu padre"
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -6758,8 +6764,7 @@ MonoBehaviour:
   itemId: 191
   indentLevel: 0
   storyText: Pero por otro lado los magos del gremio arcano pueden usarlas en todo
-    momento ya que ellos se entrenan arduamente en perfeccionar sus habilidades con
-    la magia
+    momento
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -6871,33 +6876,6 @@ MonoBehaviour:
   description: 
   character: {fileID: 357668527}
   portrait: {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2072080861
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072080675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 210
-  indentLevel: 0
-  storyText: 'Fin primer acto #Notas'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7979,7 +7957,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &2072080900
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7995,6 +7973,171 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 2
   durationOLD: 0
+--- !u!114 &2072080901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072080675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 252
+  indentLevel: 0
+  storyText: "Pero debido a las guerras y problemas que hubo durante esa \xE9poca
+    no se sabe bien de qu\xE9 forma figura \xE9l en el linaje real."
+  description: 
+  character: {fileID: 414603071}
+  portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2072080902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072080675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 251
+  indentLevel: 0
+  storyText: eso ha derivado en que muchos gobernantes tengan linajes diferentes antes
+    de establecerse el que hoy nos gobierna
+  description: 
+  character: {fileID: 414603071}
+  portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2072080903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072080675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 256
+  indentLevel: 0
+  storyText: Dentro de las murallas del castillo viven desentiendes secundarios y
+    comerciantes.
+  description: 
+  character: {fileID: 414603071}
+  portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2072080904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072080675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 255
+  indentLevel: 0
+  storyText: Solo cumplen con algunas leyes fundamentales del reino
+  description: 
+  character: {fileID: 414603071}
+  portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2072080905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072080675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 254
+  indentLevel: 0
+  storyText: Y es por eso que se han ganado ciertos privilegios
+  description: 
+  character: {fileID: 414603071}
+  portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2072080906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072080675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 253
+  indentLevel: 0
+  storyText: Pues poseen muchas reliquias pero no de ese tipo
+  description: 
+  character: {fileID: 414603071}
+  portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &1162992287170799468
 PrefabInstance:
   m_ObjectHideFlags: 0
