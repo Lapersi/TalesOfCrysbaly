@@ -1031,7 +1031,7 @@ GameObject:
   - component: {fileID: 1466675435}
   - component: {fileID: 1466675436}
   m_Layer: 0
-  m_Name: Leyan_Protagonista
+  m_Name: Leyna_Protagonista
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1087,7 +1087,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e129a25fa045b6240a3e05e94d3a5837, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1263,7 +1263,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 3cb7c35a750699348a04840d1ae1be5e, type: 3}
   m_Color: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 0}
   m_FlipX: 0
@@ -1616,10 +1616,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 2072080720}
-  selectedCommands:
-  - {fileID: 2072080739}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 2072080687}
   description: 
@@ -6695,7 +6693,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080854
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7975,7 +7973,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &2072080901
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8003,7 +8001,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080902
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8031,7 +8029,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080903
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8059,7 +8057,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080904
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8086,7 +8084,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080905
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8113,7 +8111,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080906
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
