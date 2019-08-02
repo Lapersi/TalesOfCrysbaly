@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &465508579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -892,9 +892,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1176893307}
-  selectedCommands:
-  - {fileID: 1176893333}
+  - {fileID: 1176893372}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1133,7 +1132,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 570574094}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e129a25fa045b6240a3e05e94d3a5837, type: 3}
+  portrait: {fileID: 21300000, guid: efd58733e8b5bd548a51b087733abd60, type: 3}
   offset: 0
   fromPosition: {fileID: 276007964}
   toPosition: {fileID: 276007966}
@@ -3589,7 +3588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1248919252
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3792,7 +3791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1449840355
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4198,7 +4197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1903744904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4443,7 +4442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2102971991
 SpriteRenderer:
   m_ObjectHideFlags: 0

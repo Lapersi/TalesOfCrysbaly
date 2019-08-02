@@ -1008,7 +1008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1424713345
 Transform:
   m_ObjectHideFlags: 0
@@ -1087,7 +1087,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1466675435
 Transform:
   m_ObjectHideFlags: 0
@@ -1198,7 +1198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1565626983
 Transform:
   m_ObjectHideFlags: 0
@@ -1657,11 +1657,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -249.062, y: 161.18227}
+  scrollPos: {x: 408.01187, y: 107.89638}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 408
-  zoom: 0.63999987
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1671,7 +1671,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2072080794}
   selectedCommands:
-  - {fileID: 2072080861}
+  - {fileID: 2072080871}
   variables:
   - {fileID: 2072080687}
   description: 
@@ -1741,7 +1741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 175.00003
+    width: 186.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1805,7 +1805,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 357668527}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e129a25fa045b6240a3e05e94d3a5837, type: 3}
+  portrait: {fileID: 21300000, guid: efd58733e8b5bd548a51b087733abd60, type: 3}
   offset: 0
   fromPosition: {fileID: 300815438}
   toPosition: {fileID: 300815439}
@@ -1878,7 +1878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.7963
     y: -130.63953
-    width: 146.87503
+    width: 157.27274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2170,7 +2170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1033.6571
     y: 64.134285
-    width: 131.25002
+    width: 139.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2231,7 +2231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.9272
     y: -30.587978
-    width: 134.37502
+    width: 139.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2843,7 +2843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1647.5162
     y: 58.577652
-    width: 120
+    width: 124.54546
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3394,7 +3394,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1279.7483
     y: 358.19565
-    width: 139.06252
+    width: 146.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3441,7 +3441,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.2476
     y: 249.51445
-    width: 178.12503
+    width: 186.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3508,7 +3508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1276.5208
     y: 169.44661
-    width: 217.18753
+    width: 233.63638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5061,7 +5061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.08377
     y: 71.16075
-    width: 179.68753
+    width: 190.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5184,7 +5184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 570.9609
     y: 68.41993
-    width: 190.62503
+    width: 202.72728
     height: 40
   tint: {r: 0.7843138, g: 0.882353, b: 1, a: 1}
   useCustomTint: 1
@@ -5239,7 +5239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 849.28156
     y: 66.46893
-    width: 126.562515
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072080675}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
   m_Name: 
@@ -8508,11 +8508,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Protagonista
-      objectReference: {fileID: 0}
-    - target: {fileID: 6379711773097837421, guid: b2a8f97e208a3de40a23909a65018b55,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6379711773097837426, guid: b2a8f97e208a3de40a23909a65018b55,
         type: 3}
