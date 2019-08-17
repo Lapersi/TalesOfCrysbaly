@@ -1466,6 +1466,8 @@ GameObject:
   - component: {fileID: 1176893341}
   - component: {fileID: 1176893339}
   - component: {fileID: 1176893338}
+  - component: {fileID: 1176893354}
+  - component: {fileID: 1176893356}
   m_Layer: 0
   m_Name: Capitulo1-acto2
   m_TagString: Untagged
@@ -1513,8 +1515,8 @@ MonoBehaviour:
   eventHandler: {fileID: 1176893306}
   commandList:
   - {fileID: 1176893333}
-  - {fileID: 1176893314}
   - {fileID: 1176893311}
+  - {fileID: 1176893314}
   - {fileID: 1176893318}
   - {fileID: 1176893313}
   - {fileID: 1176893315}
@@ -1556,18 +1558,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 271.95374, y: 49.887398}
+  scrollPos: {x: -133.82632, y: 47.11944}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401
-  zoom: 0.7900002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1176893372}
   selectedCommands: []
   variables: []
   description: 
@@ -2238,7 +2241,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 467.28662
     y: 88.08724
-    width: 201.8987
+    width: 179.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2718,6 +2721,30 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1176893354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176893305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 233
+  indentLevel: 0
+  spriteRenderer: {fileID: 465508579}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 0}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1176893355
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2745,6 +2772,30 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1176893356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176893305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accc065c3e9a6457496f075b1bd49adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 234
+  indentLevel: 0
+  spriteRenderer: {fileID: 465508579}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  _targetColor:
+    colorRef: {fileID: 0}
+    colorVal: {r: 1, g: 1, b: 1, a: 1}
+  waitUntilFinished: 1
+  durationOLD: 0
+  targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1176893358
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2972,9 +3023,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 242.1807
-    y: 73.45733
-    width: 160.12656
+    x: 235.1807
+    y: 70.45733
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2996,6 +3047,7 @@ MonoBehaviour:
   - {fileID: 1176893393}
   - {fileID: 1176893332}
   - {fileID: 1176893392}
+  - {fileID: 1176893354}
   - {fileID: 1176893389}
   - {fileID: 1176893324}
   - {fileID: 1176893394}
@@ -3009,6 +3061,7 @@ MonoBehaviour:
   - {fileID: 1176893403}
   - {fileID: 1176893320}
   - {fileID: 1176893434}
+  - {fileID: 1176893356}
   - {fileID: 1176893431}
   - {fileID: 1176893428}
   - {fileID: 1176893425}
@@ -5279,7 +5332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903744903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.12, y: -4.38, z: 0}
+  m_LocalPosition: {x: 32.32, y: -4.02, z: 0}
   m_LocalScale: {x: 0.068211004, y: 0.06705204, z: 1}
   m_Children: []
   m_Father: {fileID: 1562540642}
