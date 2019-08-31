@@ -6,9 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Escenas/Capitulo1 - Sue\xF1os de la ni\xF1ez.unity"
-    guid: 7f12a2df0b37c2f42a0d890003da2253
+    path: "Assets/Escenas/Capitulo 1 - Sue\xF1os de la Ni\xF1ez/Acto 1 Cuentos antes
+      de dormir.unity"
+    guid: dff48187a8ff4224886347e92e85a9ba
   - enabled: 1
-    path: Assets/Escenas/Capitulo1_Acto2.unity
-    guid: fb03919e070e5ee49834dc2cdf34bf65
+    path: "Assets/Escenas/Capitulo 1 - Sue\xF1os de la Ni\xF1ez/Acto 2 Lazos de sangre.unity"
+    guid: d0082bc884d46a941b82e5734996aadb
   m_configObjects: {}
