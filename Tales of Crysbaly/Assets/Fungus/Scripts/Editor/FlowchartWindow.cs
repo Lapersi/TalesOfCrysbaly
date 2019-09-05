@@ -1585,8 +1585,8 @@ namespace Fungus.EditorUtils
             var connectionPointB = pointB + directionB * 4f;
             var connectionRectB = new Rect(connectionPointB.x - 4f, connectionPointB.y - 4f, 8f, 8f);
 
-            GUI.DrawTexture(connectionRectA, connectionPointTexture, ScaleMode.ScaleToFit);
-            GUI.DrawTexture(connectionRectB, connectionPointTexture, ScaleMode.ScaleToFit);
+            //GUI.DrawTexture(connectionRectA, connectionPointTexture, ScaleMode.ScaleToFit);
+            //GUI.DrawTexture(connectionRectB, connectionPointTexture, ScaleMode.ScaleToFit);
 
             Handles.color = Color.white;
         }
