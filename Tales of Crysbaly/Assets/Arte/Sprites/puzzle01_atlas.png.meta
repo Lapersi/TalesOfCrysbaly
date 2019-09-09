@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 31500e81f88011b42a9ff7296a1bf6b3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6590523701441840024
+    second: puzzle01_atlas_0
+  - first:
+      213: 6386300837597646695
+    second: puzzle01_atlas_1
+  - first:
+      213: 3474463695503027944
+    second: puzzle01_atlas_2
+  - first:
+      213: -3352976550902387364
+    second: puzzle01_atlas_3
+  - first:
+      213: 5321605766027440108
+    second: puzzle01_atlas_4
+  - first:
+      213: -2934197506737311485
+    second: puzzle01_atlas_5
+  - first:
+      213: 1485466337801498934
+    second: puzzle01_atlas_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -94,9 +115,180 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: puzzle01_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4270
+        height: 2251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c6442d5963eba4393598e2c05aeeac
+      internalID: -6590523701441840024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puzzle01_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 4325
+        y: 185
+        width: 2285
+        height: 2066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7bb69501b4db478ad1d8be4a01611
+      internalID: 6386300837597646695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puzzle01_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 1637
+        width: 560
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd2aba388d02ef43a489733355c4011
+      internalID: 3474463695503027944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puzzle01_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 7331
+        y: 481
+        width: 1703
+        height: 1479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75241ca129df5a442b4d01ec9012d42d
+      internalID: -3352976550902387364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puzzle01_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 6692
+        y: 1112
+        width: 481
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615caa4ef0f500d4d8a9e25ab41deef8
+      internalID: 5321605766027440108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puzzle01_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 6806
+        y: 821
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4547fbb83945349a217ff1d8f81255
+      internalID: -2934197506737311485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puzzle01_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 6617
+        y: 20
+        width: 630
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f294a5a7183b134091adc0e281181a6
+      internalID: 1485466337801498934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
