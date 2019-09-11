@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 112000000, guid: ba83ecc03e3ff4543abcc5cce070022a,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -875,6 +875,52 @@ MonoBehaviour:
   viewSize: 7.214168
   primaryAspectRatio: {x: 4, y: 3}
   secondaryAspectRatio: {x: 2, y: 1}
+--- !u!1 &1088545914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088545916}
+  - component: {fileID: 1088545915}
+  m_Layer: 0
+  m_Name: MenuPausa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1088545915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088545914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9a5118e857f364d92322b596e4af1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pausado: 0
+  CanvasJuego: {fileID: 1169212433}
+  CanvasMenuPausa: {fileID: 0}
+--- !u!4 &1088545916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088545914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 858.64954, y: 239.84538, z: -154.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104543022
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +991,12 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!223 &1169212433 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2179318635352649701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1201765794
 GameObject:
   m_ObjectHideFlags: 0
@@ -7830,6 +7882,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Padre de la Protagonista
       objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraitsFace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
+        type: 3}
     - target: {fileID: 1162992287314341932, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7885,22 +7953,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a37a10594f75c0e40a4c677e7b2e0a8f, type: 3}
 --- !u!4 &1162992287170799469 stripped
@@ -8025,6 +8077,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179318635405875097, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179318635405875102, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13ebf8dfb8f3d34680348ac0c701e7f, type: 3}
