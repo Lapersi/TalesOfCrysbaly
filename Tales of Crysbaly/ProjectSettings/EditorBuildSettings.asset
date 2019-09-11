@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MenuPrincipal/MenuPrincipal.unity
+    guid: dc9ca250ef5d6f24aab0d926566872ec
+  - enabled: 1
     path: "Assets/Escenas/Capitulo 1 - Sue\xF1os de la Ni\xF1ez/Acto 1 Cuentos antes
       de dormir.unity"
     guid: dff48187a8ff4224886347e92e85a9ba
