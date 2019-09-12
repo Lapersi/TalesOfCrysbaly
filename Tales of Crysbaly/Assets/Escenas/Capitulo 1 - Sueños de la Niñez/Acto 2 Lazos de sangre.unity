@@ -3238,6 +3238,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &736505383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 815459552960686256, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_Name
+      value: MenuPausa
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686256, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 858.64954
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 239.84538
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -154.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686262, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815459552960686257, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: CanvasJuego
+      value: 
+      objectReference: {fileID: 1910135942}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05e13ad7e371d2841959566d7fd2a26c, type: 3}
 --- !u!1 &742403497
 GameObject:
   m_ObjectHideFlags: 0
@@ -9874,11 +9953,11 @@ GameObject:
   - component: {fileID: 1176893577}
   - component: {fileID: 1176893589}
   - component: {fileID: 1176893588}
-  - component: {fileID: 1176893590}
   - component: {fileID: 1176893594}
   - component: {fileID: 1176893593}
   - component: {fileID: 1176893592}
   - component: {fileID: 1176893591}
+  - component: {fileID: 1176893484}
   m_Layer: 0
   m_Name: Capitulo1-acto2
   m_TagString: Untagged
@@ -9927,7 +10006,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1176893484}
   commandList:
   - {fileID: 1176893525}
   - {fileID: 1176893333}
@@ -9975,21 +10054,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -358.35754, y: 128.1642}
+  scrollPos: {x: 575.3151, y: 316.46472}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 382
-  zoom: 0.54999995
+  zoom: 0.45999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1176893477}
-  selectedCommands:
-  - {fileID: 1176893591}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1176893588}
   description: 
@@ -10661,7 +10738,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 418.54843
     y: 69.63182
-    width: 189.63638
+    width: 176.08696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11673,7 +11750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 223.6533
     y: 70.45733
-    width: 151.81819
+    width: 145.65218
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13148,7 +13225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 642.12976
     y: 68.75843
-    width: 124.18182
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14585,14 +14662,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 825.85876
     y: 82.49885
-    width: 150.36365
+    width: 141.30435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 307
   blockName: Minijuego Arcano
   description: 
-  eventHandler: {fileID: 1176893590}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1176893478}
   - {fileID: 1176893306}
@@ -14752,6 +14829,20 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1176893484
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176893305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1176893307}
+  waitForFrames: 1
 --- !u!114 &1176893485
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15058,7 +15149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1058.8083
     y: 78.341576
-    width: 204.18184
+    width: 186.95653
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15391,7 +15482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1356.88
     y: 57.245865
-    width: 226.00002
+    width: 213.04349
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15446,7 +15537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1720.449
     y: 70.73273
-    width: 186.72728
+    width: 173.91306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17242,7 +17333,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 681.6271
     y: -183.31662
-    width: 140.18182
+    width: 130.43478
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17297,7 +17388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 985.37744
     y: -92.11571
-    width: 210.00002
+    width: 193.47827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17336,7 +17427,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.03973
     y: -91.90793
-    width: 140.18182
+    width: 130.43478
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17376,7 +17467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1055.1399
     y: -182.31122
-    width: 210.00002
+    width: 193.47827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17416,7 +17507,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 837.43463
     y: -182.42886
-    width: 210.00002
+    width: 193.47827
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17504,20 +17595,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1176893590
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176893305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1176893477}
-  waitForFrames: 1
 --- !u!114 &1176893591
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21748,6 +21825,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!223 &1910135942 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1910135940}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1916926183
 GameObject:
   m_ObjectHideFlags: 0
