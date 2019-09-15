@@ -1756,11 +1756,11 @@ GameObject:
   - component: {fileID: 2072080876}
   - component: {fileID: 2072080739}
   - component: {fileID: 2072080879}
-  - component: {fileID: 2072080678}
   - component: {fileID: 2072080880}
   - component: {fileID: 2072080882}
   - component: {fileID: 2072080881}
   - component: {fileID: 2072080681}
+  - component: {fileID: 2072080678}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1793,7 +1793,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2072080679}
+  - {fileID: 2072080794}
   selectedCommands: []
   variables:
   - {fileID: 2072080687}
@@ -1836,7 +1836,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080678
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5089,7 +5089,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 357668527}
   portrait: {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0998a64de4e25a3448a8fbae4e6da791, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -7864,22 +7864,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Padre de la Protagonista
       objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
-        type: 3}
     - target: {fileID: 1162992287314341932, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7935,6 +7919,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraitsFace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a37a10594f75c0e40a4c677e7b2e0a8f, type: 3}
 --- !u!4 &1162992287170799469 stripped
@@ -7954,11 +7954,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CustomSayDialog
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2179318635765110049, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
         type: 3}
@@ -8064,6 +8059,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2179318635405875097, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
         type: 3}
