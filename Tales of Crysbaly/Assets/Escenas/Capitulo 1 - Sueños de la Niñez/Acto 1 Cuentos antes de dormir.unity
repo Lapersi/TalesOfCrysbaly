@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 149.38025, y: 374.33902}
+  scrollPos: {x: 92.23744, y: 251.89015}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 408
@@ -1792,10 +1792,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 2072080794}
-  selectedCommands:
-  - {fileID: 2072080789}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 2072080687}
   description: 
@@ -1837,7 +1835,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2072080678
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1865,7 +1863,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.94118
     y: 70
-    width: 168.36725
+    width: 180.61214
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1891,7 +1889,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2072080681
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1968,7 +1966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.7963
     y: -130.63953
-    width: 143.87747
+    width: 151.22441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2239,7 +2237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1033.6571
     y: 64.13428
-    width: 127.55096
+    width: 134.89789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2300,7 +2298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.9272
     y: -30.587978
-    width: 129.59177
+    width: 138.1632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2912,7 +2910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1647.5162
     y: 58.577652
-    width: 120
+    width: 121.83668
     height: 40
   tint: {r: 0.9245283, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -3465,7 +3463,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1279.7483
     y: 358.19565
-    width: 135.71422
+    width: 143.06116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3512,7 +3510,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.2476
     y: 249.51445
-    width: 174.48969
+    width: 183.87744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3579,7 +3577,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1276.5208
     y: 169.44661
-    width: 213.26517
+    width: 224.69374
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5136,7 +5134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.08377
     y: 71.16075
-    width: 170.40807
+    width: 185.5101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5239,7 +5237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 570.9609
     y: 68.41993
-    width: 182.65295
+    width: 196.93866
     height: 40
   tint: {r: 0.7843138, g: 0.882353, b: 1, a: 1}
   useCustomTint: 1
@@ -5294,7 +5292,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 849.28156
     y: 66.46893
-    width: 120
+    width: 129.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7865,22 +7863,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Padre de la Protagonista
       objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
-        type: 3}
     - target: {fileID: 1162992287314341932, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7936,6 +7918,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraitsFace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a37a10594f75c0e40a4c677e7b2e0a8f, type: 3}
 --- !u!4 &1162992287170799469 stripped
@@ -7955,11 +7953,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CustomSayDialog
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2179318635765110049, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
         type: 3}
@@ -8065,6 +8058,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2179318635405875097, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
         type: 3}
