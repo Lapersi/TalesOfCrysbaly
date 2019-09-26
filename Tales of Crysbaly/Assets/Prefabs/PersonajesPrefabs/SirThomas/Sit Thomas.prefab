@@ -43,11 +43,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Sit Thomas
+  nameText: Sir Thomas
   nameColor: {r: 0.9433962, g: 0.70447254, b: 0, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 5a89688bc38f69e469fe0ed4b38e1b48, type: 3}
   portraits:
   - {fileID: 21300000, guid: a9b3599ccea66c644bec780cd1a18e2d, type: 3}
+  - {fileID: 21300000, guid: 314b99a512003f545a24172e45465509, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Caballero del Rey que esta mamadisimio

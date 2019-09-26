@@ -45,10 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Gerald
   nameColor: {r: 0.4666667, g: 0.48235297, b: 0.15294118, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: edb04c9fb14351b4ea5e96bcc2a82582, type: 3}
   portraits:
   - {fileID: 21300000, guid: c47c472274b4d5d4dbd07bce1936711c, type: 3}
   - {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
+  - {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: El padre de Leyna, fuerte, confiado, seguro,  con una gran devocion

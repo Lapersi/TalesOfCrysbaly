@@ -836,13 +836,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104543022}
-  m_LocalRotation: {x: -0, y: -0, z: 0.13898386, w: 0.9902947}
+  m_LocalRotation: {x: -0, y: -0, z: 0.98424655, w: -0.17680155}
   m_LocalPosition: {x: -12.82, y: -8.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 424420960}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 200.36699}
 --- !u!114 &1104543024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1569,7 +1569,6 @@ GameObject:
   - component: {fileID: 2072080700}
   - component: {fileID: 2072080699}
   - component: {fileID: 2072080698}
-  - component: {fileID: 2072080697}
   - component: {fileID: 2072080717}
   - component: {fileID: 2072080696}
   - component: {fileID: 2072080716}
@@ -1760,7 +1759,6 @@ GameObject:
   - component: {fileID: 2072080882}
   - component: {fileID: 2072080881}
   - component: {fileID: 2072080681}
-  - component: {fileID: 2072080678}
   - component: {fileID: 2072080682}
   - component: {fileID: 2072080884}
   - component: {fileID: 2072080883}
@@ -1771,6 +1769,7 @@ GameObject:
   - component: {fileID: 2072080889}
   - component: {fileID: 2072080888}
   - component: {fileID: 2072080688}
+  - component: {fileID: 2072080678}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1791,11 +1790,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 37.090946, y: 312.4489}
+  scrollPos: {x: -109.05532, y: 410.2132}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 365
-  zoom: 0.4600004
+  zoom: 0.40000057
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1803,9 +1802,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2072080794}
-  selectedCommands:
-  - {fileID: 2072080688}
+  - {fileID: 2072080720}
+  selectedCommands: []
   variables:
   - {fileID: 2072080687}
   description: 
@@ -1875,7 +1873,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.94118
     y: 70
-    width: 180.43466
+    width: 167.49983
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2005,7 +2003,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.7963
     y: -130.63953
-    width: 152.60861
+    width: 134.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2073,7 +2071,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &2072080688
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2305,7 +2303,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1033.6571
     y: 64.13428
-    width: 135.21732
+    width: 129.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2323,33 +2321,6 @@ MonoBehaviour:
   - {fileID: 2072080828}
   - {fileID: 2072080896}
   - {fileID: 2072080738}
---- !u!114 &2072080697
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072080675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 36
-  indentLevel: 0
-  storyText: "\xBFLas Rel\xEDquias M\xE1gicas son muy poderosas?"
-  description: 
-  character: {fileID: 357668527}
-  portrait: {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: e7bef8dc0609abd479c7707a17f52ade, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &2072080698
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2366,7 +2337,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.9272
     y: -30.587978
-    width: 135.21732
+    width: 122.49989
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2375,7 +2346,6 @@ MonoBehaviour:
   description: OpcionPregunta
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 2072080697}
   - {fileID: 2072080755}
   - {fileID: 2072080754}
   - {fileID: 2072080753}
@@ -2849,7 +2819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 1
-  text: "\xBFFamilias Nombles?"
+  text: "\xBFFamilias Nobles?"
   description: 
   targetBlock: {fileID: 2072080698}
   hideIfVisited: 1
@@ -2977,7 +2947,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1647.5162
     y: 58.577652
-    width: 121.30428
+    width: 120
     height: 40
   tint: {r: 0.9245283, g: 0, b: 0, a: 1}
   useCustomTint: 1
@@ -3530,8 +3500,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1279.7483
-    y: 358.19565
-    width: 142.17383
+    y: 356.87985
+    width: 134.99988
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3578,7 +3548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.2476
     y: 249.51445
-    width: 180.43466
+    width: 164.99983
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3645,7 +3615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1276.5208
     y: 169.44661
-    width: 225.65201
+    width: 204.99977
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3957,9 +3927,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: "Afuera o en los alrededores del castillo existen poblados en los que
-    viven personas que trabajan los cultivos y cr\xEDan animales para alimentar a
-    la provincia."
+  storyText: "Afuera o en los alrededores del castillo existen poblados que trabajan
+    los cultivos y cr\xEDan animales para alimentar a la provincia"
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -5201,7 +5170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.08377
     y: 71.16075
-    width: 183.91292
+    width: 174.99982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5310,7 +5279,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 570.9609
     y: 68.41993
-    width: 196.08682
+    width: 184.9998
     height: 40
   tint: {r: 0.7843138, g: 0.882353, b: 1, a: 1}
   useCustomTint: 1
@@ -5365,7 +5334,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 849.28156
     y: 66.46893
-    width: 126.52167
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5903,7 +5872,7 @@ MonoBehaviour:
   itemId: 147
   indentLevel: 0
   storyText: "Pues veras hija, a veces las personas nos enfocamos m\xE1s en las cosas
-    que nos nos dividen que en las que nos unen"
+    que nos dividen que en las que nos unen..."
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
@@ -6839,7 +6808,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 414603071}
   portrait: {fileID: 21300000, guid: 41d081e5822c77642ba8f0cb795e9a8e, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: e8ebb40fd0f6c6c41a310c370d73bc61, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: dafdd2ff5be512d4ab668ef7803ad837, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -8073,22 +8042,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Padre de la Protagonista
       objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1162992287314341971, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
-        type: 3}
-      propertyPath: portraits.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 630fea7e829a1de4e9ae610025121eb2,
-        type: 3}
     - target: {fileID: 1162992287314341932, guid: a37a10594f75c0e40a4c677e7b2e0a8f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8298,12 +8251,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mama de la Protagonista
       objectReference: {fileID: 0}
-    - target: {fileID: 5728268485345336913, guid: 23fc0fb503a30974fa4cb86b1e9880e0,
-        type: 3}
-      propertyPath: portraits.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: d826375873c32f14392f88547815b31b,
-        type: 3}
     - target: {fileID: 5728268485345336914, guid: 23fc0fb503a30974fa4cb86b1e9880e0,
         type: 3}
       propertyPath: m_LocalPosition.x

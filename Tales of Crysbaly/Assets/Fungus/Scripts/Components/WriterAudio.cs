@@ -166,7 +166,8 @@ namespace Fungus
 
         protected virtual void Update()
         {
-            targetAudioSource.volume = Mathf.MoveTowards(targetAudioSource.volume, targetVolume, Time.deltaTime * 5f);
+            //targetAudioSource.volume = Mathf.MoveTowards(targetAudioSource.volume, targetVolume, Time.deltaTime * 5f);
+            targetAudioSource.volume = 1; //Parte modificada para que solo reproduzca una vez el voice over de cada personaje
         }
 
         #region IWriterListener implementation

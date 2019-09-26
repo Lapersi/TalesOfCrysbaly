@@ -44,11 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Leyna
-  nameColor: {r: 0.8980392, g: 0.7706739, b: 0.047058802, a: 1}
-  soundEffect: {fileID: 0}
+  nameColor: {r: 0.9339623, g: 0.110137045, b: 0.7627369, a: 1}
+  soundEffect: {fileID: 8300000, guid: e7bef8dc0609abd479c7707a17f52ade, type: 3}
   portraits:
   - {fileID: 21300000, guid: e129a25fa045b6240a3e05e94d3a5837, type: 3}
-  - {fileID: 21300000, guid: aca6b1db37bd6fb41bfd2895f77d9e44, type: 3}
+  - {fileID: 21300000, guid: aeeeea19685a92f45b51a71c54e27459, type: 3}
   - {fileID: 21300000, guid: efd58733e8b5bd548a51b087733abd60, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}

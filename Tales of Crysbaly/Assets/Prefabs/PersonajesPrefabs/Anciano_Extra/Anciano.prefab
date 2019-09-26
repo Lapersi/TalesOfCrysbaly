@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Anciano
   nameColor: {r: 0.22441348, g: 0.1994482, b: 0.509434, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: e1c8a802a8dd6304ab66a7b7de2a87e9, type: 3}
   portraits:
   - {fileID: 21300000, guid: f3ce802023a46604fbc4131eb7b64fc0, type: 3}
   - {fileID: 21300000, guid: ae1e6f1eb360f08479bb9e403811a543, type: 3}
