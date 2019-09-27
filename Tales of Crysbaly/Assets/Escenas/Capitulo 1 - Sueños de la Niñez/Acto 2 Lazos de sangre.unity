@@ -1146,7 +1146,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ce203e25760c54f4ca74e503c172d9ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -1881,7 +1881,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ce203e25760c54f4ca74e503c172d9ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -2331,7 +2331,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 314b99a512003f545a24172e45465509, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -3811,7 +3811,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 2257b4b9031c33d45adbabd9a85096ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5365,7 +5365,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e94ba029e11ed9741b9882750317770c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -6207,19 +6207,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1447.0461, y: 898.5017}
+  scrollPos: {x: -113.829636, y: 54.0873}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 576
-  zoom: 0.25
+  zoom: 0.69999963
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1176893307}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1176893588}
@@ -6890,7 +6889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 418.54843
     y: 69.63182
-    width: 206
+    width: 187.14293
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7731,7 +7730,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1176893366
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7890,7 +7889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 223.6533
     y: 70.45733
-    width: 162
+    width: 150.00006
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9366,7 +9365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 642.12976
     y: 68.75843
-    width: 130
+    width: 122.85718
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10802,7 +10801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 813.61383
     y: 68.213135
-    width: 162
+    width: 148.57147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11308,7 +11307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1058.8083
     y: 78.341576
-    width: 218
+    width: 201.42865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11643,7 +11642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1480.169
     y: 76.60071
-    width: 250
+    width: 222.85724
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11691,7 +11690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3084.6594
     y: 76.24603
-    width: 202
+    width: 184.28578
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13656,7 +13655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1510.7418
     y: 218.04651
-    width: 222
+    width: 208.57152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14652,7 +14651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.94092
     y: -163.13493
-    width: 186
+    width: 174.28578
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14706,7 +14705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 768.63916
     y: -134.27785
-    width: 190
+    width: 181.42863
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14901,7 +14900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1237.9623
     y: -262.38147
-    width: 186
+    width: 175.71436
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14930,7 +14929,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1753.2588
     y: 220.66138
-    width: 194
+    width: 184.28578
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15060,7 +15059,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 301.77277
     y: -37.894684
-    width: 222
+    width: 205.71437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15172,7 +15171,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1980.397
     y: 225.54034
-    width: 210
+    width: 198.5715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15257,7 +15256,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 854.8106
     y: -242.22398
-    width: 226
+    width: 212.85722
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15407,7 +15406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2201.0752
     y: 221.90555
-    width: 234
+    width: 221.42867
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15514,7 +15513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1348.0923
     y: -153.65977
-    width: 226
+    width: 215.71437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15543,7 +15542,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2884.647
     y: 220.89041
-    width: 194
+    width: 182.85721
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15631,7 +15630,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2646.7852
     y: 224.89044
-    width: 230
+    width: 215.71437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16110,7 +16109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2445.1113
     y: 223.21603
-    width: 186
+    width: 175.71436
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17484,7 +17483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3506.3682
     y: 109.80374
-    width: 126
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18352,7 +18351,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e94ba029e11ed9741b9882750317770c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -19486,7 +19485,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ce203e25760c54f4ca74e503c172d9ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -20114,7 +20113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ce203e25760c54f4ca74e503c172d9ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -20194,7 +20193,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 314b99a512003f545a24172e45465509, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
@@ -21979,7 +21978,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 2257b4b9031c33d45adbabd9a85096ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22855,7 +22854,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 314b99a512003f545a24172e45465509, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
