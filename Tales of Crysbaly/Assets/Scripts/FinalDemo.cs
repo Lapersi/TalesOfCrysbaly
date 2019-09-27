@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class FinalDemo : MonoBehaviour
 {
@@ -9,12 +10,12 @@ public class FinalDemo : MonoBehaviour
 
     private void Start()
     {
-        Invoke("Final", 25);
+        Invoke("Final", 22);
     }
 
     void Final()
     {
         Debug.Log("FinDelDemo");
-        Application.Quit();
+        SceneManager.LoadScene(0);
     }
 }

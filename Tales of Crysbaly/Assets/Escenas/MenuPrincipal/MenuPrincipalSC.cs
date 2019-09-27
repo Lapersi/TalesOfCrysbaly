@@ -14,6 +14,11 @@ public class MenuPrincipalSC : MonoBehaviour
         Invoke("CambiarEscena", 1.5f);        
     }
 
+    public void SalirJuego()
+    {
+        Application.Quit();
+    }
+
     void CambiarEscena()
     {
         if (!cambiando)
