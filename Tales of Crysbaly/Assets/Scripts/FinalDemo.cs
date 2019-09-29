@@ -10,7 +10,7 @@ public class FinalDemo : MonoBehaviour
 
     private void Start()
     {
-        Invoke("Final", 22);
+        Invoke("Final", 25);
     }
 
     void Final()
