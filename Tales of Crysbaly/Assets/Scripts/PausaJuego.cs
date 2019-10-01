@@ -11,9 +11,7 @@ public class PausaJuego : MonoBehaviour
 
     public Canvas CanvasJuego;
     public GameObject CanvasMenuPausa;
-    public Draggable2D [] elementos;
-
-    
+    public Draggable2D [] elementos;    
 
     // Update is called once per frame
     void Update()

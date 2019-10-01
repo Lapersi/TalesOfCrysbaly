@@ -689,6 +689,7 @@ GameObject:
   - component: {fileID: 1028226187}
   - component: {fileID: 1028226189}
   - component: {fileID: 1028226188}
+  - component: {fileID: 1028226190}
   m_Layer: 0
   m_Name: CinematicaSegundaParte
   m_TagString: Untagged
@@ -746,9 +747,9 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 1
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 1028226190}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
@@ -760,6 +761,102 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!82 &1028226190
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028226186}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1053886969
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +996,7 @@ GameObject:
   - component: {fileID: 1201765796}
   - component: {fileID: 1201765795}
   - component: {fileID: 1201765797}
+  - component: {fileID: 1201765798}
   m_Layer: 0
   m_Name: CinematicaInicial
   m_TagString: Untagged
@@ -926,9 +1024,9 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 1
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 1201765798}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
@@ -970,6 +1068,102 @@ MonoBehaviour:
   videoPlayer: {fileID: 1201765795}
   nombreSiguienteBlock: Interrupcion Cinematica
   Saltar: 0
+--- !u!82 &1201765798
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201765794}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1228819215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,11 +1984,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -109.05532, y: 410.2132}
+  scrollPos: {x: 826.9489, y: 345.939}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 365
-  zoom: 0.40000057
+  zoom: 0.31000057
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1873,7 +2067,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.94118
     y: 70
-    width: 167.49983
+    width: 169.35461
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2003,7 +2197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.7963
     y: -130.63953
-    width: 134.99988
+    width: 146.77402
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2303,7 +2497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1033.6571
     y: 64.13428
-    width: 129.99988
+    width: 130.64502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2337,7 +2531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.9272
     y: -30.587978
-    width: 122.49989
+    width: 133.87082
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3501,7 +3695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1279.7483
     y: 356.87985
-    width: 134.99988
+    width: 137.09662
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3548,7 +3742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1275.2476
     y: 249.51445
-    width: 164.99983
+    width: 175.80621
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3615,7 +3809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1276.5208
     y: 169.44661
-    width: 204.99977
+    width: 204.83842
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5170,7 +5364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 314.08377
     y: 71.16075
-    width: 174.99982
+    width: 172.58041
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5279,7 +5473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 570.9609
     y: 68.41993
-    width: 184.9998
+    width: 185.48363
     height: 40
   tint: {r: 0.7843138, g: 0.882353, b: 1, a: 1}
   useCustomTint: 1
@@ -5334,7 +5528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 849.28156
     y: 66.46893
-    width: 120
+    width: 124.19341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8028,6 +8222,11 @@ PrefabInstance:
       propertyPath: CanvasJuego
       value: 
       objectReference: {fileID: 1169212433}
+    - target: {fileID: 815459552960686257, guid: 05e13ad7e371d2841959566d7fd2a26c,
+        type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 2072080675}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05e13ad7e371d2841959566d7fd2a26c, type: 3}
 --- !u!1001 &1162992287170799468
@@ -8116,11 +8315,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CustomSayDialog
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2179318635765110049, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
         type: 3}
@@ -8226,6 +8420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179318635765110054, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2179318635405875097, guid: b13ebf8dfb8f3d34680348ac0c701e7f,
         type: 3}
